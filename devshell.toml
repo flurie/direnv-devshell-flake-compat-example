@@ -1,0 +1,15 @@
+# https://numtide.github.io/devshell
+[[env]]
+name = "AWS_PROFILE"
+value = "my-account-alias"
+
+[devshell]
+name = "direnv-devshell-flake-compat-example"
+packages = [
+         "awscli2",
+         "aws-okta",
+         "kubectl",
+         "awslogs",
+         "terraform",
+         "coreutils", # for dirname/basename
+]
