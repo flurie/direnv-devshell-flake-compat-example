@@ -1,0 +1,1 @@
+# direnv-devshell-flake-compat-example
